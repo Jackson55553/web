@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: aqua;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    width: 80px;
+    height: 40px;
+    background: aqua;
+}
