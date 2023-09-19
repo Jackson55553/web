@@ -1,4 +1,4 @@
-.container{
+.container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -6,15 +6,17 @@
     width: auto;
     height: auto;
 }
-#box{
+
+#box {
     display: flex;
     flex-direction: row;
     position: relative;
     width: 200px;
     height: 200px;
-    background: aqua;
+    background: rgb(132, 229, 229);
 }
-button{
+
+button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,36 +25,42 @@ button{
     height: 40px;
     background: aqua;
 }
-#cont{
+
+#cont {
     position: relative;
     display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	background-color: #ffc800;
-	border-radius: 60px;
-	height: 35px;
-	width: 40px;
-	transition: 1s;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffc800;
+    border-radius: 60px;
+    height: 35px;
+    width: 40px;
+    transition: 1s;
     margin-left: 20px;
 }
-#cont:hover{
-	transform: scale(1.2);
-	width: 60px;
+
+#cont:hover {
+    transform: scale(1.2);
+    width: 60px;
 }
-#cart_img{
+
+#cart_img {
     position: relative;
     left: 8px;
     transition: 1s
 }
-#cont:hover > #cart_count{
-	visibility: visible;
+
+#cont:hover>#cart_count {
+    visibility: visible;
     opacity: 1;
 }
-#cont:hover > #cart_img{
-	left: 0;
+
+#cont:hover>#cart_img {
+    left: 0;
 }
-#cart_count{
+
+#cart_count {
     position: relative;
     visibility: hidden;
     opacity: 0;
